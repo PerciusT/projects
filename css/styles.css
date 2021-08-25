@@ -1,0 +1,93 @@
+body
+{
+	background-color: black;
+}
+td 
+{
+	color: #db97f2;;
+}
+hr
+{
+	color: #550d6d;
+	background-color: #550d6d;;
+}
+h1
+{
+	color: #c149e9;
+}
+h3
+{
+	color: #db97f2
+}
+h4
+{
+	color: #c149e9;
+}
+p
+{
+	color: #db97f2
+}
+a
+{
+	color: #db97f2;
+	text-decoration: none;
+}
+a:hover
+{
+	color: #eecdf9;
+}
+/*index classes*/
+.chad
+{
+	height: auto;
+	width: 60%;
+}
+.toptable
+{
+	width: 100%;
+	background-color: #550d6d;
+	color: #db97f2;
+	text-align: center;
+}
+.tophead
+{
+	height: 70px;
+}
+.toplink
+{
+	font-size: 30px;
+}
+
+.intro
+{
+	width: 100%;
+}
+.headingh1
+{
+	height: 200px;
+}
+.monkey
+{
+	text-align: center;
+}
+.topheaderh1
+{
+	text-align: center;
+}
+/*jokes classes*/
+.jokest
+{
+	background-color: black;
+	height: 185px;
+}
+/*projects classes*/
+.projectimg
+{
+	height: auto;
+	width: 30%;
+	border-radius: 100%;
+}
+.hovercolor:hover
+{
+	background-color: #eecdf9;
+}
