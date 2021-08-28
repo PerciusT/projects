@@ -1,6 +1,7 @@
 body
 {
 	background-color: black;
+	margin: 0px 0px;
 }
 td 
 {
@@ -9,15 +10,26 @@ td
 hr
 {
 	color: #550d6d;
-	background-color: #550d6d;;
+	background-color: #550d6d;
+	width: 70%;
 }
 h1
 {
 	color: #c149e9;
 }
+h2
+{
+	color: #c149e9;
+	margin: 0px;
+	padding: 0px;
+	padding-top: 30px;
+	font-size: 2rem;
+}
 h3
 {
-	color: #db97f2
+	color: #db97f2;
+
+
 }
 h4
 {
@@ -25,6 +37,8 @@ h4
 }
 p
 {
+	padding: 0px;
+	margin: 0px;
 	color: #db97f2
 }
 a
@@ -37,10 +51,80 @@ a:hover
 	color: #eecdf9;
 }
 /*index classes*/
+.skilldiv
+{
+	line-height: 1.5;
+	margin-bottom: 7rem;
+}
+.skillimg
+{
+	width: 25%;
+	height: auto;
+	float: left;
+	margin-right: 30px;
+}
+
+.skillp
+{
+	width: 80%;
+	font-size: 16px;
+}
+.skillnote
+{
+	font-size: 12px;
+}
+.javaimg
+{
+	margin-left: 30px;
+	float: right;
+}
+.skill2
+{
+	text-align: right;
+}
+.intromonkey
+{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 2;
+	margin-top: 4rem;
+	font-weight: normal;
+}
+.midtext
+{
+	width: 80%;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.middlecont 
+{
+	display: flex;
+	justify-content: space-between;
+	background-image: url(https://cdn.wallpapersafari.com/98/42/O05ACc.jpeg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	}
+.dragonimg
+{
+
+}
+.dragon 
+{
+	width: 25rem;
+	height: auto;
+}
+.rightdragon
+{
+	-webkit-transform: scaleX(-1);
+ 	transform: scaleX(-1);
+}
 .chad
 {
 	height: auto;
-	width: 60%;
+	width: 12rem;
+	border-radius: 4rem	;
 }
 .toptable
 {
@@ -48,10 +132,14 @@ a:hover
 	background-color: #550d6d;
 	color: #db97f2;
 	text-align: center;
+	display: flex;
+	justify-content: space-evenly;
 }
 .tophead
 {
-	height: 70px;
+	padding-top: 1rem;
+	height: 4rem;
+	display: inline-block;
 }
 .toplink
 {
@@ -61,6 +149,12 @@ a:hover
 .intro
 {
 	width: 100%;
+	display: flex;
+	background-image: url(https://i.pinimg.com/736x/b1/09/10/b10910ab178d63377a7f10629818938d--wallpapers-ipad-iphone--wallpaper.jpg);
+	background-size: contain;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding-bottom: 3rem;
 }
 .headingh1
 {
@@ -85,8 +179,8 @@ a:hover
 {
 	height: auto;
 	width: 30%;
-	
 }
+
 .hovercolor:hover
 {
 	height: auto;
