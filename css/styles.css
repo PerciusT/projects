@@ -29,7 +29,6 @@ h3
 {
 	color: #db97f2;
 
-
 }
 h4
 {
@@ -128,7 +127,7 @@ a:hover
 }
 .toptable
 {
-	width: 100%;
+	width: 100vw;
 	background-color: #550d6d;
 	color: #db97f2;
 	text-align: center;
