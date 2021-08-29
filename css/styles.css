@@ -261,7 +261,6 @@ a:hover
 }
 .hovercolor:hover
 {
-	transform: scale(1.2);
 	border-radius: 2rem;
 	background-color: #eecdf9;
 }
@@ -277,6 +276,10 @@ a:hover
 	justify-content: space-around;
 	margin-top: 20px;
 
+}
+.projectc:hover
+{
+	transform: scale(1.1);
 }
 .protxt
 {
