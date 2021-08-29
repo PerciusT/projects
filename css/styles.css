@@ -220,24 +220,73 @@ a:hover
 	text-align: center;
 }
 /*jokes classes*/
+.topjoke
+{
+	background-image: url("https://cdn.discordapp.com/attachments/753241164194381834/881615506086440990/oroboros2.png"), url(https://i.pinimg.com/736x/b1/09/10/b10910ab178d63377a7f10629818938d--wallpapers-ipad-iphone--wallpaper.jpg);
+	background-repeat: no-repeat, repeat;
+	background-color: black;
+	background-position: center;
+	background-size: contain;
+	height: 40vw;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-bottom: 55px;
+}
+.dragonj
+{
+	width: 20vw;
+	height: auto;
+	-webkit-transform: scaleX(1);
+}
+.rightdragonj
+{
+	-webkit-transform: scaleX(-1);
+}
 .jokest
 {
-	background-color: black;
-	height: 160px;
+	padding-left: 50px;
+	display: flex;
+	flex-direction: column;
+	height: 40vw;
+	justify-content: space-between;
 }
-
 /*projects classes*/
 .projectimg
 {
 	height: auto;
-	width: 9vw;
+	width: 7vw;
 	margin-right: 9vw;
-}
 
+}
 .hovercolor:hover
 {
-	height: auto;
-	width: 10vw;
-	border-radius: 100%;
+	transform: scale(1.2);
+	border-radius: 2rem;
 	background-color: #eecdf9;
+}
+.topproject
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.projectc
+{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 20px;
+
+}
+.protxt
+{
+	margin-top: 30px;
+	width: 40vw;
+}
+.middleproj
+{
+	background-image: url("https://cdn.discordapp.com/attachments/807548642764128256/881642673184841848/pngwing.com1.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
 }
